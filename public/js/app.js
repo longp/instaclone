@@ -1,6 +1,6 @@
 var app = angular.module('mainApp', ['ngRoute', 'NgMessages']);
 
-app.config(function($urlProvider){
+app.config(function($routeProvider){
   $routeProvider
   .when('/', {
     templateUrl: 'views/home.html',
