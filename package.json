@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/longp/instaclone/issues"
   },
-  "homepage": "https://github.com/longp/instaclone#readme"
+  "homepage": "https://github.com/longp/instaclone#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongoose": "^4.4.16",
+    "morgan": "^1.7.0"
+  }
 }
