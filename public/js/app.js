@@ -4,19 +4,19 @@ app.config(function($routeProvider, $locationProvider){
 
   $routeProvider
   .when('/', {
-    templateUrl: 'views/partials/home.html',
+    templateUrl: '/partials/home.html',
     // controller: 'HomeCtrl'
   })
   .when('/login', {
-    templateUrl: '/views/login.html',
+    templateUrl: '/partials/login.html',
     // controller: 'LoginCtrl'
   })
   .when('/signup', {
-      templateUrl: 'views/partials/signup.html',
+      templateUrl: '/partials/signup.html',
     // controller: 'SignupCtrl'
   })
   .when('/detail', {
-      templateUrl: 'views/detail.html',
+      templateUrl: '/partials/detail.html',
     // controller: 'DetailCtrl'
   })
   .otherwise({
